@@ -1,4 +1,4 @@
-namespace DefaultNamespace;
+namespace ConsoleApp1;
 
 public class Bank
 {

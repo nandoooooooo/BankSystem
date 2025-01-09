@@ -1,3 +1,5 @@
+namespace ConsoleApp1;
+
 public class Employee
 {
     public string Name { get; set; }

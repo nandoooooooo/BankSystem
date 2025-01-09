@@ -1,4 +1,4 @@
-using DefaultNamespace;
+namespace ConsoleApp1;
 
 public class Program
 {
@@ -6,8 +6,8 @@ public class Program
     {
         Bank bank = new Bank("Quicksilver Bank");
 
-        Customer customer1 = new Customer("Alice Johnson", "123 Main St");
-        Customer customer2 = new Customer("Bob Smith", "456 Elm St");
+        Customer customer1 = new Customer("Nando Schuermann", "123 Main St");
+        Customer customer2 = new Customer("Noah Krummenacher", "456 Elm St");
 
         bank.Customers.Add(customer1);
         bank.Customers.Add(customer2);
